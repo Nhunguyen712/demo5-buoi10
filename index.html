@@ -4,11 +4,14 @@
     <img
       id="myImage"
       src="https://i.postimg.cc/dt0WV8Lm/10478c0c-4021-431c-8331-fc52bd3fc7e3.jpg"
+      onclick="changeImage()"
     />
 
     <script>
-      document.getElementById("myImage").src =
-        "https://i.postimg.cc/dt0WV8Lm/10478c0c-4021-431c-8331-fc52bd3fc7e3.jpg";
+      function changeImage() {
+        document.getElementById("myImage").src =
+          "https://via.placeholder.com/300";
+      }
     </script>
   </body>
 </html>
